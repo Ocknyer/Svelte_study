@@ -1,6 +1,7 @@
 <script>
 	import Nested from './Nested.svelte';
 	import SpreadProps from './Spread/SpreadProps.svelte';
+	import IfBlocks from './IfBlocks/ifBlocks.svelte';
 
 	let count = 0;
 	// 반응형 선언
@@ -43,3 +44,5 @@
 <p>{numbers.join(' + ')} = {sum}</p>
 
 <SpreadProps />
+
+<IfBlocks />
