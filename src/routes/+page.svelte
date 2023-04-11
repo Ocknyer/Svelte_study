@@ -1,7 +1,9 @@
 <script>
 	import Nested from './Nested.svelte';
 	import SpreadProps from './Spread/SpreadProps.svelte';
-	import IfBlocks from './IfBlocks/ifBlocks.svelte';
+	import IfBlocks from './IfBlocks/IfBlocks.svelte';
+	import EachBlocks from './EachBlocks/EachBlocks.svelte';
+	import KeyedEachBlocks from './KeyedEachBlocks/KeyedEachBlocks.svelte';
 
 	let count = 0;
 	// 반응형 선언
@@ -46,3 +48,7 @@
 <SpreadProps />
 
 <IfBlocks />
+
+<EachBlocks />
+
+<KeyedEachBlocks />
