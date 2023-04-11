@@ -5,7 +5,10 @@
 	import EachBlocks from './EachBlocks/EachBlocks.svelte';
 	import KeyedEachBlocks from './KeyedEachBlocks/KeyedEachBlocks.svelte';
 	import AwaitBlocks from './AwaitBlocks/AwaitBlocks.svelte';
-	import DomEvents from './DomEvents/DomEvents.svelte';
+	import ComponentEvents from './ComponentEvents/ComponentEvents.svelte';
+	import DomEvents from './DOMEvents/DOMEvents.svelte';
+	import EventForwarding from './EventForwarding/EventForwarding.svelte';
+	import DomEventForwarding from './DomEventForwarding/DomEventForwarding.svelte';
 
 	let count = 0;
 	// 반응형 선언
@@ -58,3 +61,9 @@
 <AwaitBlocks />
 
 <DomEvents />
+
+<ComponentEvents />
+
+<EventForwarding />
+
+<DomEventForwarding />
