@@ -40,6 +40,7 @@
   }
 
   .bc_test {
+    color: white;
     width: 100%;
     height: 100%;
   }

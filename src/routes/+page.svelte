@@ -9,6 +9,9 @@
 	import DomEvents from './DOMEvents/DOMEvents.svelte';
 	import EventForwarding from './EventForwarding/EventForwarding.svelte';
 	import DomEventForwarding from './DomEventForwarding/DomEventForwarding.svelte';
+	import TextInputs from './Inputs/TextInputs.svelte';
+	import NumericInputs from './Inputs/NumericInputs.svelte';
+	import CheckboxInputs from './Inputs/CheckboxInputs.svelte';
 
 	let count = 0;
 	// 반응형 선언
@@ -67,3 +70,9 @@
 <EventForwarding />
 
 <DomEventForwarding />
+
+<TextInputs />
+
+<NumericInputs />
+
+<CheckboxInputs />
