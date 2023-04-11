@@ -4,6 +4,8 @@
 	import IfBlocks from './IfBlocks/IfBlocks.svelte';
 	import EachBlocks from './EachBlocks/EachBlocks.svelte';
 	import KeyedEachBlocks from './KeyedEachBlocks/KeyedEachBlocks.svelte';
+	import AwaitBlocks from './AwaitBlocks/AwaitBlocks.svelte';
+	import DomEvents from './DomEvents/DomEvents.svelte';
 
 	let count = 0;
 	// 반응형 선언
@@ -52,3 +54,7 @@
 <EachBlocks />
 
 <KeyedEachBlocks />
+
+<AwaitBlocks />
+
+<DomEvents />
