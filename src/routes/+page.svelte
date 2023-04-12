@@ -22,6 +22,13 @@
 	import OnDestroy from './Lifecycle/OnDestroy.svelte';
 	import BeforeAndAfterUpdate from './Lifecycle/BeforeAndAfterUpdate.svelte';
 	import Tick from './Lifecycle/Tick.svelte';
+	import WritableStores from './Store/WritableStores/WritableStores.svelte';
+	import ReadableStores from './Store/ReadableStores/ReadableStores.svelte';
+	import DerivedStores from './Store/DerivedStores/DerivedStores.svelte';
+	import CustomStores from './Store/CustomStores/CustomStores.svelte';
+	import StoreBindings from './Store/StoreBindings/StoreBindings.svelte';
+	import NamedSlots from './Slot/NamedSlots/NamedSlots.svelte';
+	import SlotProps from './Slot/SlotProps/SlotProps.svelte';
 
 	let count = 0;
 	// 반응형 선언
@@ -107,3 +114,19 @@
 <BeforeAndAfterUpdate />
 
 <Tick />
+
+<!-- Stores -->
+<WritableStores />
+
+<ReadableStores />
+
+<DerivedStores />
+
+<CustomStores />
+
+<StoreBindings />
+
+<!-- Slots -->
+<NamedSlots />
+
+<SlotProps />
