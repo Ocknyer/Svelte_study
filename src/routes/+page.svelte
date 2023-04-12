@@ -16,6 +16,8 @@
 	import TextareaInputs from './Inputs/TextareaInputs.svelte';
 	import Select from './Inputs/Select.svelte';
 	import Multiple from './Inputs/Multiple.svelte';
+	import ContenteditableBindings from './Bindings/ContenteditableBindings.svelte';
+	import EachBlockBindings from './Bindings/EachBlockBindings.svelte';
 
 	let count = 0;
 	// 반응형 선언
@@ -88,3 +90,7 @@
 <Select />
 
 <Multiple />
+
+<ContenteditableBindings />
+
+<EachBlockBindings />
