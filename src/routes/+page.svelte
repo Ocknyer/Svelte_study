@@ -18,6 +18,10 @@
 	import Multiple from './Inputs/Multiple.svelte';
 	import ContenteditableBindings from './Bindings/ContenteditableBindings.svelte';
 	import EachBlockBindings from './Bindings/EachBlockBindings.svelte';
+	import OnMount from './Lifecycle/OnMount.svelte';
+	import OnDestroy from './Lifecycle/OnDestroy.svelte';
+	import BeforeAndAfterUpdate from './Lifecycle/BeforeAndAfterUpdate.svelte';
+	import Tick from './Lifecycle/Tick.svelte';
 
 	let count = 0;
 	// 반응형 선언
@@ -94,3 +98,12 @@
 <ContenteditableBindings />
 
 <EachBlockBindings />
+
+<!-- 라이프 사이클 함수 -->
+<OnMount />
+
+<OnDestroy />
+
+<BeforeAndAfterUpdate />
+
+<Tick />
