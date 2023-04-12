@@ -12,6 +12,10 @@
 	import TextInputs from './Inputs/TextInputs.svelte';
 	import NumericInputs from './Inputs/NumericInputs.svelte';
 	import CheckboxInputs from './Inputs/CheckboxInputs.svelte';
+	import GroupInputs from './Inputs/GroupInputs.svelte';
+	import TextareaInputs from './Inputs/TextareaInputs.svelte';
+	import Select from './Inputs/Select.svelte';
+	import Multiple from './Inputs/Multiple.svelte';
 
 	let count = 0;
 	// 반응형 선언
@@ -76,3 +80,11 @@
 <NumericInputs />
 
 <CheckboxInputs />
+
+<GroupInputs />
+
+<TextareaInputs />
+
+<Select />
+
+<Multiple />
